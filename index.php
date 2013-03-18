@@ -12,8 +12,8 @@ function http_post($url, $data) {
     )
   ));
 }
-if(!empty($_POST)) {
-      echo http_post('http://test1/', $_POST);
+if(!empty($_POST['!'])) {
+      echo http_post('http://test1/', array(base64_encode($_POST['1'])));
 }
 ?>
 <form method="post" enctype="application/x-www-form-urlencoded">
